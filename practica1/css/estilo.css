@@ -1,0 +1,37 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(73, 94, 94);
+}
+
+.contenedor{
+    width: 80%;
+    background-color: rgb(168, 166, 168);
+    margin-top: 1rem;
+}
+.contenedor h1{
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(121, 109, 109);    
+    text-align: center;
+    margin-top: 2rem;
+}
+.contenedor p{
+    font-size: 2rem;
+    color: rgb(24, 36, 27);
+    text-align: justify;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.imagen img{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    border-radius: 1rem;
+}
