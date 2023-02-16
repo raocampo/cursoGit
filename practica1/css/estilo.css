@@ -9,7 +9,7 @@ body{
 }
 
 .contenedor{
-    width: 80%;
+    width: 50%;
     background-color: rgb(168, 166, 168);
     margin-top: 1rem;
 }
@@ -39,6 +39,7 @@ body{
 .contenido{
     width: 50%;
     margin-top: 2rem;
+    margin-bottom: 5rem;
     border: 0.1rem solid #a37676;
     border-radius: 1rem;
     text-align: center;
