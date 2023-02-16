@@ -29,7 +29,9 @@ body{
     font-size: 1rem;
     text-align: justify;
 }
-
+figure{
+    margin-top: 2rem;
+}
 img{
     display: block;
     width: 40%;
