@@ -35,3 +35,11 @@ body{
     padding-top: 2rem;
     border-radius: 1rem;
 }
+
+.contenido{
+    width: 50%;
+    margin-top: 2rem;
+    border: 0.1rem solid #a37676;
+    border-radius: 1rem;
+    text-align: center;
+}
