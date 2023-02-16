@@ -7,7 +7,15 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(73, 94, 94);
 }
+/*utilidades*/
 
+img{
+    width: 30%;
+}
+h1, h2, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(121, 109, 109);
+}
 .contenedor{
     width: 50%;
     background-color: rgb(168, 166, 168);
@@ -15,8 +23,6 @@ body{
 }
 .contenedor h1{
     font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(121, 109, 109);    
     text-align: center;
     margin-top: 2rem;
 }
@@ -43,4 +49,16 @@ body{
     border: 0.1rem solid #a37676;
     border-radius: 1rem;
     text-align: center;
+}
+.contenido p{
+    margin-bottom: 2rem;
+}
+
+.contenido-tercera{
+    display: flex;
+}
+
+.contenido-tercera_tar{
+    display: flex;
+    flex-direction: column;
 }
