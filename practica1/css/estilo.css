@@ -62,4 +62,7 @@ h1, h2, h3{
     display: flex;
     flex-direction: column;
     background-color: #97dcfc;
+    margin: 1rem;
+    gap: 1rem;
+    border-radius: 1rem 0;
 }
