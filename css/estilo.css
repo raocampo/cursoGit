@@ -5,36 +5,92 @@
 
 body{
     background-color: #6b7c7b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*UTILIDADES*/
+h1, h2, h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+}
+img{
+    width: 70%;
 }
 
 .contenedor{
-    width: 70%;
-    height: 50rem;
+    display: flex;
+    width: 100;
+    height: 35rem;
     background-color: #532727;
+}
+.contenedor-titulo{
+    width: 95%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b0f1ce;
+    margin-top: 2rem;
+
 }
 
 .contenedor h1{
     color: #011227;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
-    text-align: center;
-    margin-top: 3rem;
+   
 }
 
-.contenedor p{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    color: rgb(231, 231, 240);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.contenido{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.contenido p{
+    color: #6767f3;
     font-size: 1rem;
     text-align: justify;
+    padding: 1rem;
 }
-figure{
+.imagen{
     margin-top: 2rem;
 }
-img{
+.imagen img{
+    width: 50%;
     display: block;
-    width: 40%;
     margin: 0 auto;
-    border-top: 1rem;
+    
+}
+.parte2{
+    width: 90%;
+    height: 50rem;
+    background-color: #68807e;
+    margin-top: 0.5rem;
+}
+.parte2 h2{
+    width: 50%;
+    font-size: 2rem;
+    border: #011227 0.1rem solid;
+    margin-bottom: 0.5rem;
+    border-radius: 0 1rem;
+    padding: 1rem;
+}
+.parte2-contenedor{
+    display: flex;
+    gap: 1rem;
+}
+.parte2-contenido{
+    width: 100%;
+    height: 25rem;
+    background-color: #fde8fd;
+    border-radius: 1rem;
+
+}
+.parte2-contenido p{
+    text-align: justify;
+    padding: 1rem;
+}
+.parte2-contenido img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
 }
